@@ -19,7 +19,7 @@ blockytalky.onReceivedString(function (key, receivedString) {
 let figer = 0
 let action = 0
 action = 0
-basic.showIcon(IconNames.SmallSquare)
+basic.showIcon(IconNames.Square)
 basic.forever(function () {
     while (action == 1) {
         if (Math.abs(figer) >= Math.abs(input.acceleration(Dimension.Y) + 50)) {
